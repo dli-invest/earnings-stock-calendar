@@ -1,0 +1,30 @@
+name: Check Prices
+on: 
+  push:
+    branches:
+      - master
+  schedule:
+    - cron:  '1 19 * * 1'
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: grandfleet/dopysel:python-3.8
+      env:
+        GOOGLE_SERVICE_CREDS: ${{ secrets.CALENDAR_SERVICE_ACCOUNT }}
+        STOCK_API: ${{ secrets.STOCK_API }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: pip3 install --upgrade pip && pip3 install -r requirements.txt
+      - name: Run Main Script 
+        run: python3 fetch_data.py
+      - name: Storing Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: artifacts
+

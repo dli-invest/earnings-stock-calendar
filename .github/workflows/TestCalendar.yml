@@ -1,0 +1,24 @@
+name: Testing Calendar Integration
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: grandfleet/dopysel:python-3.8  
+      env:
+        GOOGLE_SERVICE_CREDS: ${{ secrets.CALENDAR_SERVICE_ACCOUNT }}
+        STOCK_API: ${{ secrets.STOCK_API }}
+        CALENDAR_ID: ${{ secrets.CALENDAR_ID }}
+        CALENDAR_SERVICE_ACCOUNT: ${{ secrets.CALENDAR_SERVICE_ACCOUNT }}
+        NOTIFICATION DISCORD WEBHOOK: ${{ secrets.NOTIFICATION DISCORD WEBHOOK }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: pip3 install --upgrade pip && pip3 install -r requirements.txt
+      - name: Run Test Script
+        run: python3 test_calendar.py

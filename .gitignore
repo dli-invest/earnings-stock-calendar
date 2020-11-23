@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+*.log
+*f6.json
+service_account*.txt
+stocks.json
+__pycache__
+set_env.bat
