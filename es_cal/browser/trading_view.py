@@ -112,7 +112,7 @@ def get_earnings():
     html_df["Ticker"] = html_df["Ticker"].apply(lambda x: split_string(x))
     clean_df = html_df[html_df.iloc[:, 0].isin(data)]
     run_date = datetime.today().strftime('%Y-%m-%d')
-    clean_df.to_csv(f"artifacts/{run_date}_earnings.csv")
+    clean_df.to_csv(f"artifacts/{run_date}_earnings.csv", index=False)
     for index, row in clean_df.iterrows():
         earnings_date = row["Date"]
         ticker = row["Ticker"]
