@@ -12,6 +12,7 @@ env:
   STOCK_API: ${{ secrets.STOCK_API }}
   DISCORD_CODE_STATUS_WEBHOOK: ${{ secrets.DISCORD_CODE_STATUS_WEBHOOK }}
   CALENDAR_ID: ${{ secrets.CALENDAR_ID }}  
+  REMOTE_SELENIUM_URL: ${{ secrets.REMOTE_SELENIUM_URL }}
 jobs:
   build:
     runs-on: ubuntu-latest

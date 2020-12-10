@@ -29,7 +29,7 @@ def make_webdriver_old():
 def make_webdriver(build_name="Earnings-stock-calendar"):
     remote_url = os.environ.get("REMOTE_SELENIUM_URL")
     if remote_url == None:
-        raise Exception("Missing CALENDAR_ID in env vars")
+        raise Exception("Missing REMOTE_SELENIUM_URL in env vars")
     desired_cap = {
         "os_version": "10",
         "resolution": "1920x1080",
