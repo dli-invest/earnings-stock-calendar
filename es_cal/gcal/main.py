@@ -51,8 +51,8 @@ def make_calendar_service(service_file_path="stocks.json"):
 
 def make_event_data(summary, date=date.today(), email="davidli012345@gmail.com"):
     # Only thing I get from trading view is date, so append timezone to inputted date
-    start_date = f"{date}T03:30:00-07:00"
-    end_date = f"{date}T04:00:00-07:00"
+    start_date = f"{date}T05:30:00-07:00"
+    end_date = f"{date}T07:00:00-07:00"
     return {
         "summary": summary,
         "start": {

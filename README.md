@@ -16,3 +16,10 @@ setx GOOGLE_SERVICE_CREDS "%USERPROFILE%\aws\cert.pem"
 
 This is based on a private repo called stock-scrapper-selenium.
 
+
+
+To run ipos mapper
+
+```
+python -m es_cal.browser.fetch_ipos
+```

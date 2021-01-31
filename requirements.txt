@@ -7,5 +7,6 @@ google-auth==1.14.2
 requests==2.22.0
 html5lib==1.1
 beautifulsoup4==4.9.1
+icecream==2.1.0
 # Use my webhook
 # apprise>=0.8.4
