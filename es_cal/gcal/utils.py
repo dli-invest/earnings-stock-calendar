@@ -35,8 +35,7 @@ def get_tickers():
 
 
 def split_string(string: str):
-    if " " in string:
-        string_list = string.split()
-        return string_list[1]
-    else:
+    if " " not in string:
         return string
+    string_list = string.split()
+    return string_list[1]
