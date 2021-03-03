@@ -28,7 +28,7 @@ def make_webdriver_old():
 
 def make_webdriver(build_name="Earnings-stock-calendar"):
     remote_url = os.environ.get("REMOTE_SELENIUM_URL")
-    if remote_url == None:
+    if remote_url is None:
         raise Exception("Missing REMOTE_SELENIUM_URL in env vars")
     desired_cap = {
         "os_version": "10",
@@ -39,8 +39,7 @@ def make_webdriver(build_name="Earnings-stock-calendar"):
         "name": "ES-Calendar-[Python]",  # test name
         "build": build_name,  # CI/CD job or build name
     }
-    driver = webdriver.Remote(
+    return webdriver.Remote(
         command_executor=remote_url,
         desired_capabilities=desired_cap,
     )
-    return driver

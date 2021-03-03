@@ -116,7 +116,7 @@ def get_earnings():
     for index, row in clean_df.iterrows():
         earnings_date = row["Date"]
         ticker = row["Ticker"]
-        print(row["Ticker"], row["Date"])
+        print(ticker, earnings_date)
         extracted_date = datetime.strptime(earnings_date, "%Y-%m-%d")
         earnings_year = extracted_date.year
         quarter = map_month_to_quarter(extracted_date.month)

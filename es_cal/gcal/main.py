@@ -101,11 +101,11 @@ def make_event_in_gcal(event_name, date):
     """
     decode_json()
     service = make_calendar_service()
-    calendarId = gcalendarId
     if check_if_event_exists(service, event_name):
         print(f"{event_name} exists already, not creating event")
     else:
         event_data = make_event_data(event_name, date)
+        calendarId = gcalendarId
         event = (
             service.events().insert(calendarId=calendarId, body=event_data).execute()
         )
@@ -115,12 +115,12 @@ def make_event_in_gcal(event_name, date):
 def main():
     decode_json()
     service = make_calendar_service()
-    calendarId = gcalendarId
     event_name = "NTAR May Earnings"
     if check_if_event_exists(service, event_name):
         print(f"{event_name} exists already, not creating event")
     else:
         event_data = make_event_data(event_name, "2020-05-14")
+        calendarId = gcalendarId
         event = (
             service.events().insert(calendarId=calendarId, body=event_data).execute()
         )

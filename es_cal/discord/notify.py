@@ -15,7 +15,6 @@ def send_message(content, embeds=[]):
             data=json.dumps(payload),
             headers={"Content-Type": "application/json"},
         )
-        data = r.json()
-        return data
+        return r.json()
     except Exception as e:
         print(e)
