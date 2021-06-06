@@ -22,6 +22,7 @@ def parseResponse(searchData: dict):
 def mapItemForDiscord(item: dict):
     content = item.get('title')
     embed = {
+        'title': item.get('title'),
         'description': item.get('snippet'),
         'url': item.get('link'),
     }
