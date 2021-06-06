@@ -14,7 +14,7 @@ jobs:
         STOCK_API: ${{ secrets.STOCK_API }}
         CALENDAR_ID: ${{ secrets.CALENDAR_ID }}
         CALENDAR_SERVICE_ACCOUNT: ${{ secrets.CALENDAR_SERVICE_ACCOUNT }}
-        NOTIFICATION DISCORD WEBHOOK: ${{ secrets.NOTIFICATION DISCORD WEBHOOK }}
+        NOTIFICATION_DISCORD_WEBHOOK: ${{ secrets.NOTIFICATION_DISCORD_WEBHOOK }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
