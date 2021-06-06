@@ -6,9 +6,9 @@ import json
 def send_message(content, embeds=[]):
     try:
         payload = {"content": content, "embeds": embeds}
-        DISCORD_WEBHOOK = os.environ.get("NOTIFICATION_DISCORD_WEBHOOK")
+        DISCORD_WEBHOOK = os.environ.get("DISCORD_NOTIFICATION_WEBHOOK")
         if DISCORD_WEBHOOK is None:
-            print("FAILED TO SEND DISCORD MESSAGE")
+            print("NO WEBHOOK AVAILABLE")
             return
         r = requests.post(
             DISCORD_WEBHOOK,

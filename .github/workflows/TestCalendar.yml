@@ -21,4 +21,4 @@ jobs:
       - name: Install Dependencies
         run: pip3 install --upgrade pip && pip3 install -r requirements.txt
       - name: Run Test Script
-        run: python3 test_calendar.py
+        run: python3 tests/test_calendar.py
