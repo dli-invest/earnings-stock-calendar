@@ -39,6 +39,7 @@ def fetch_ipos(marketwatch_url = "https://www.marketwatch.com/tools/ipo-calendar
                 firstItem = searchGoogle(f"{symbol} {ex}")
                 send_message(mapItemForDiscord(firstItem))
             except Exception as e:
+                print(e)
                 pass
             # send data to discord
         # send data to calendar
