@@ -15,7 +15,7 @@ def send_message(content, embeds=[]):
             DISCORD_WEBHOOK,
             data=json.dumps(payload),
             headers={"Content-Type": "application/json"},
-        )
+        )   
         data = r.json()
         print(data)
         return data
