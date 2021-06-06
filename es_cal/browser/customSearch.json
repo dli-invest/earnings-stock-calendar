@@ -1,0 +1,1405 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - Task NASDAQ",
+                "totalResults": "74400",
+                "searchTerms": "Task NASDAQ",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "STRIPED"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - Task NASDAQ",
+                "totalResults": "74400",
+                "searchTerms": "Task NASDAQ",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "STRIPED"
+            }
+        ]
+    },
+    "context": {
+        "title": "Stock Search Engine"
+    },
+    "searchInformation": {
+        "searchTime": 0.450005,
+        "formattedSearchTime": "0.45",
+        "totalResults": "74400",
+        "formattedTotalResults": "74,400"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "TaskUs, Inc. (TASK) IPO - NASDAQ.com",
+            "htmlTitle": "TaskUs, Inc. (<b>TASK</b>) IPO - <b>NASDAQ</b>.com",
+            "link": "https://www.nasdaq.com/market-activity/ipos/overview?dealId=1154568-97149",
+            "displayLink": "www.nasdaq.com",
+            "snippet": "Proposed Symbol, TASK. Company Name, TaskUs, Inc. Exchange, NASDAQ \nGlobal Select. Share Price, $22.00-24.00. Employees, 27500 (as of 03/31/2021).",
+            "htmlSnippet": "Proposed Symbol, <b>TASK</b>. Company Name, TaskUs, Inc. Exchange, <b>NASDAQ</b> <br>\nGlobal Select. Share Price, $22.00-24.00. Employees, 27500 (as of 03/31/2021).",
+            "cacheId": "_-CS5eui58wJ",
+            "formattedUrl": "https://www.nasdaq.com/market-activity/ipos/overview?dealId=1154568...",
+            "htmlFormattedUrl": "https://www.<b>nasdaq</b>.com/market-activity/ipos/overview?dealId=1154568...",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "twitter:card": "summary_large_image",
+                        "theme-color": "#ffffff",
+                        "twitter:site": "@Nasdaq",
+                        "handheldfriendly": "true",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "com.nasdaq.cms.taxonomy.pagetype": "ipo-page",
+                        "og:title": "Overview",
+                        "mobileoptimized": "width",
+                        "title": "TaskUs, Inc. (TASK) IPO - NASDAQ.com",
+                        "og:url": "https://www.nasdaq.com/market-activity/ipos/overview?dealId=1154568-97149"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Market Activity CLOSE Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets Quick Links Real-Time Quotes After-Hours Quotes Pre-Marke...",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Stocks",
+                        "url": "Stocks"
+                    },
+                    {
+                        "name": "Real-Time Quotes",
+                        "url": "Real-Time Quotes"
+                    },
+                    {
+                        "name": "Economic Calendar",
+                        "url": "Economic Calendar"
+                    },
+                    {
+                        "name": "Analyst Recommendations",
+                        "url": "Analyst Recommendations"
+                    },
+                    {
+                        "name": "Gold",
+                        "url": "Gold"
+                    },
+                    {
+                        "name": "Statistical Milestones",
+                        "url": "Statistical Milestones"
+                    },
+                    {
+                        "name": "News and Insights Markets Companies Coronavirus Technology Personal Finance Financial Advisors"
+                    },
+                    {
+                        "name": "News and Insights",
+                        "url": "News and Insights"
+                    },
+                    {
+                        "name": "Blockchain",
+                        "url": "Blockchain"
+                    },
+                    {
+                        "name": "Inclusive Entrepreneurship",
+                        "url": "Inclusive Entrepreneurship"
+                    },
+                    {
+                        "name": "Raise & Access Capital List with Nasdaq Nasdaq Private Market Private Fund Liquidity Investor Relations Intelligence Nasdaq Direct Listings Optimize Governance Practices Board Portal Software...",
+                        "url": "Raise & Access Capital"
+                    },
+                    {
+                        "name": "List with Nasdaq",
+                        "url": "List with Nasdaq"
+                    },
+                    {
+                        "name": "Board Portal Software",
+                        "url": "Board Portal Software"
+                    },
+                    {
+                        "name": "AML Technology",
+                        "url": "AML Technology"
+                    },
+                    {
+                        "name": "Investment Data & Analytics",
+                        "url": "Investment Data & Analytics"
+                    },
+                    {
+                        "name": "Equities",
+                        "url": "Equities"
+                    },
+                    {
+                        "name": "Our People Board of Directors Careers Press Center Contact"
+                    },
+                    {
+                        "name": "Our People",
+                        "url": "Our People"
+                    },
+                    {
+                        "name": "Diversity, Inclusion and Belonging",
+                        "url": "Diversity, Inclusion and Belonging"
+                    },
+                    {
+                        "name": "The Purpose Initiative",
+                        "url": "The Purpose Initiative"
+                    }
+                ],
+                "searchaction": [
+                    {
+                        "query": "value"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Computer Task Group, Inc. Common Stock (CTG) Stock Quotes ...",
+            "htmlTitle": "Computer <b>Task</b> Group, Inc. Common Stock (CTG) Stock Quotes ...",
+            "link": "https://www.nasdaq.com/market-activity/stocks/ctg",
+            "displayLink": "www.nasdaq.com",
+            "snippet": "Computer Task Group, Inc. Common Stock (CTG) Stock Quotes - Nasdaq offers \nstock quotes & market activity data for US and global markets.",
+            "htmlSnippet": "Computer <b>Task</b> Group, Inc. Common Stock (CTG) Stock Quotes - <b>Nasdaq</b> offers <br>\nstock quotes &amp; market activity data for US and global markets.",
+            "cacheId": "AcnR3UTlFWQJ",
+            "formattedUrl": "https://www.nasdaq.com/market-activity/stocks/ctg",
+            "htmlFormattedUrl": "https://www.<b>nasdaq</b>.com/market-activity/stocks/ctg",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "twitter:card": "summary_large_image",
+                        "com.nasdaq.cms.taxonomy.assetclass": "stocks",
+                        "theme-color": "#ffffff",
+                        "twitter:site": "@Nasdaq",
+                        "handheldfriendly": "true",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "com.nasdaq.cms.taxonomy.pagetype": "symbol-page",
+                        "og:title": "CTG",
+                        "mobileoptimized": "width",
+                        "og:url": "https://www.nasdaq.com/market-activity/stocks/ctg",
+                        "com.nasdaq.cms.taxonomy.quotesymbol": "CTG"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Market Activity CLOSE Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets Quick Links Real-Time Quotes After-Hours Quotes Pre-Marke...",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Stocks",
+                        "url": "Stocks"
+                    },
+                    {
+                        "name": "Real-Time Quotes",
+                        "url": "Real-Time Quotes"
+                    },
+                    {
+                        "name": "Economic Calendar",
+                        "url": "Economic Calendar"
+                    },
+                    {
+                        "name": "Analyst Recommendations",
+                        "url": "Analyst Recommendations"
+                    },
+                    {
+                        "name": "Gold",
+                        "url": "Gold"
+                    },
+                    {
+                        "name": "Statistical Milestones",
+                        "url": "Statistical Milestones"
+                    },
+                    {
+                        "name": "News and Insights Markets Companies Coronavirus Technology Personal Finance Financial Advisors"
+                    },
+                    {
+                        "name": "News and Insights",
+                        "url": "News and Insights"
+                    },
+                    {
+                        "name": "Blockchain",
+                        "url": "Blockchain"
+                    },
+                    {
+                        "name": "Inclusive Entrepreneurship",
+                        "url": "Inclusive Entrepreneurship"
+                    },
+                    {
+                        "name": "Raise & Access Capital List with Nasdaq Nasdaq Private Market Private Fund Liquidity Investor Relations Intelligence Nasdaq Direct Listings Optimize Governance Practices Board Portal Software...",
+                        "url": "Raise & Access Capital"
+                    },
+                    {
+                        "name": "List with Nasdaq",
+                        "url": "List with Nasdaq"
+                    },
+                    {
+                        "name": "Board Portal Software",
+                        "url": "Board Portal Software"
+                    },
+                    {
+                        "name": "AML Technology",
+                        "url": "AML Technology"
+                    },
+                    {
+                        "name": "Investment Data & Analytics",
+                        "url": "Investment Data & Analytics"
+                    },
+                    {
+                        "name": "Equities",
+                        "url": "Equities"
+                    },
+                    {
+                        "name": "Our People Board of Directors Careers Press Center Contact"
+                    },
+                    {
+                        "name": "Our People",
+                        "url": "Our People"
+                    },
+                    {
+                        "name": "Diversity, Inclusion and Belonging",
+                        "url": "Diversity, Inclusion and Belonging"
+                    },
+                    {
+                        "name": "The Purpose Initiative",
+                        "url": "The Purpose Initiative"
+                    }
+                ],
+                "searchaction": [
+                    {
+                        "query": "value"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "TaskUs, Inc. (TASK) Stock Quotes | Nasdaq",
+            "htmlTitle": "TaskUs, Inc. (<b>TASK</b>) Stock Quotes | <b>Nasdaq</b>",
+            "link": "https://www.nasdaq.com/market-activity/stocks/task",
+            "displayLink": "www.nasdaq.com",
+            "snippet": "TaskUs, Inc. (TASK) Stock Quotes - Nasdaq offers stock quotes & market activity \ndata for US and global markets.",
+            "htmlSnippet": "TaskUs, Inc. (<b>TASK</b>) Stock Quotes - <b>Nasdaq</b> offers stock quotes &amp; market activity <br>\ndata for US and global markets.",
+            "cacheId": "4iQhFkIjhkUJ",
+            "formattedUrl": "https://www.nasdaq.com/market-activity/stocks/task",
+            "htmlFormattedUrl": "https://www.<b>nasdaq</b>.com/market-activity/stocks/<b>task</b>",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "twitter:card": "summary_large_image",
+                        "com.nasdaq.cms.taxonomy.assetclass": "ipo",
+                        "theme-color": "#ffffff",
+                        "twitter:site": "@Nasdaq",
+                        "handheldfriendly": "true",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "com.nasdaq.cms.taxonomy.pagetype": "symbol-page",
+                        "og:title": "TASK",
+                        "mobileoptimized": "width",
+                        "og:url": "https://www.nasdaq.com/market-activity/stocks/task",
+                        "com.nasdaq.cms.taxonomy.quotesymbol": "TASK"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Market Activity CLOSE Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets Quick Links Real-Time Quotes After-Hours Quotes Pre-Marke...",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Stocks",
+                        "url": "Stocks"
+                    },
+                    {
+                        "name": "Real-Time Quotes",
+                        "url": "Real-Time Quotes"
+                    },
+                    {
+                        "name": "Economic Calendar",
+                        "url": "Economic Calendar"
+                    },
+                    {
+                        "name": "Analyst Recommendations",
+                        "url": "Analyst Recommendations"
+                    },
+                    {
+                        "name": "Gold",
+                        "url": "Gold"
+                    },
+                    {
+                        "name": "Statistical Milestones",
+                        "url": "Statistical Milestones"
+                    },
+                    {
+                        "name": "News and Insights Markets Companies Coronavirus Technology Personal Finance Financial Advisors"
+                    },
+                    {
+                        "name": "News and Insights",
+                        "url": "News and Insights"
+                    },
+                    {
+                        "name": "Blockchain",
+                        "url": "Blockchain"
+                    },
+                    {
+                        "name": "Inclusive Entrepreneurship",
+                        "url": "Inclusive Entrepreneurship"
+                    },
+                    {
+                        "name": "Raise & Access Capital List with Nasdaq Nasdaq Private Market Private Fund Liquidity Investor Relations Intelligence Nasdaq Direct Listings Optimize Governance Practices Board Portal Software...",
+                        "url": "Raise & Access Capital"
+                    },
+                    {
+                        "name": "List with Nasdaq",
+                        "url": "List with Nasdaq"
+                    },
+                    {
+                        "name": "Board Portal Software",
+                        "url": "Board Portal Software"
+                    },
+                    {
+                        "name": "AML Technology",
+                        "url": "AML Technology"
+                    },
+                    {
+                        "name": "Investment Data & Analytics",
+                        "url": "Investment Data & Analytics"
+                    },
+                    {
+                        "name": "Equities",
+                        "url": "Equities"
+                    },
+                    {
+                        "name": "Our People Board of Directors Careers Press Center Contact"
+                    },
+                    {
+                        "name": "Our People",
+                        "url": "Our People"
+                    },
+                    {
+                        "name": "Diversity, Inclusion and Belonging",
+                        "url": "Diversity, Inclusion and Belonging"
+                    },
+                    {
+                        "name": "The Purpose Initiative",
+                        "url": "The Purpose Initiative"
+                    }
+                ],
+                "searchaction": [
+                    {
+                        "query": "value"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "U.S. securities regulator creates task force to target ESG misconduct ...",
+            "htmlTitle": "U.S. securities regulator creates <b>task</b> force to target ESG misconduct ...",
+            "link": "https://www.nasdaq.com/articles/u.s.-securities-regulator-creates-task-force-to-target-esg-misconduct-2021-03-04",
+            "displayLink": "www.nasdaq.com",
+            "snippet": "Mar 4, 2021 ... The views and opinions expressed herein are the views and opinions of the \nauthor and do not necessarily reflect those of Nasdaq, Inc. Trending ...",
+            "htmlSnippet": "Mar 4, 2021 <b>...</b> The views and opinions expressed herein are the views and opinions of the <br>\nauthor and do not necessarily reflect those of <b>Nasdaq</b>, Inc. Trending&nbsp;...",
+            "cacheId": "pYytTM-ZfUQJ",
+            "formattedUrl": "https://www.nasdaq.com/.../u.s.-securities-regulator-creates-task-force-to- target-esg-misconduct-2021-03-04",
+            "htmlFormattedUrl": "https://www.<b>nasdaq</b>.com/.../u.s.-securities-regulator-creates-<b>task</b>-force-to- target-esg-misconduct-2021-03-04",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSC2hKwFifZbqrybmzqHEM3EmEyBysAZ3A13868-fa2WhMOlhfOcTiFTiA",
+                        "width": "275",
+                        "height": "183"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "og:image": "https://www.nasdaq.com/sites/acquia.prod/files/2021-03-04T184552Z_1_XD7_RTRLXPP_2_LYNXPACKAGER.JPG?581901919",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "U.S. securities regulator creates task force to target ESG misconduct",
+                        "og:type": "Article",
+                        "og:image:width": "1200",
+                        "theme-color": "#ffffff",
+                        "twitter:site:id": "nasdaq",
+                        "handheldfriendly": "true",
+                        "twitter:url": "https://www.nasdaq.com/articles/u.s.-securities-regulator-creates-task-force-to-target-esg-misconduct-2021-03-04",
+                        "com.nasdaq.cms.taxonomy.addisplay": "True",
+                        "com.nasdaq.cms.taxonomy.pagetype": "article-page",
+                        "og:title": "U.S. securities regulator creates task force to target ESG misconduct",
+                        "og:image:height": "630",
+                        "title": "U.S. securities regulator creates task force to target ESG misconduct | Nasdaq",
+                        "com.nasdaq.cms.taxonomy.sponsored": "False",
+                        "twitter:site": "@Nasdaq",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "mobileoptimized": "width",
+                        "com.nasdaq.cms.taxonomy.topic": "markets:us-markets",
+                        "og:url": "https://www.nasdaq.com/articles/u.s.-securities-regulator-creates-task-force-to-target-esg-misconduct-2021-03-04"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.nasdaq.com/sites/acquia.prod/files/styles/amp_metadata_content_image_min_696px_wide/public/2021-03-04T184552Z_1_XD7_RTRLXPP_2_LYNXPACKAGER.JPG?itok=hXwaar8L"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Market Activity CLOSE Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets Quick Links Real-Time Quotes After-Hours Quotes Pre-Marke...",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Stocks",
+                        "url": "Stocks"
+                    },
+                    {
+                        "name": "Real-Time Quotes",
+                        "url": "Real-Time Quotes"
+                    },
+                    {
+                        "name": "Economic Calendar",
+                        "url": "Economic Calendar"
+                    },
+                    {
+                        "name": "Analyst Recommendations",
+                        "url": "Analyst Recommendations"
+                    },
+                    {
+                        "name": "Gold",
+                        "url": "Gold"
+                    },
+                    {
+                        "name": "Statistical Milestones",
+                        "url": "Statistical Milestones"
+                    },
+                    {
+                        "name": "Markets Companies Coronavirus Technology Personal Finance Financial Advisors"
+                    },
+                    {
+                        "name": "Markets",
+                        "url": "Markets"
+                    },
+                    {
+                        "name": "Blockchain",
+                        "url": "Blockchain"
+                    },
+                    {
+                        "name": "Inclusive Entrepreneurship",
+                        "url": "Inclusive Entrepreneurship"
+                    },
+                    {
+                        "name": "Raise & Access Capital List with Nasdaq Nasdaq Private Market Private Fund Liquidity Investor Relations Intelligence Optimize Governance Practices Board Portal Software Board Assessments &...",
+                        "url": "Raise & Access Capital"
+                    },
+                    {
+                        "name": "List with Nasdaq",
+                        "url": "List with Nasdaq"
+                    },
+                    {
+                        "name": "Board Portal Software",
+                        "url": "Board Portal Software"
+                    },
+                    {
+                        "name": "Market Infrastructure Technology",
+                        "url": "Market Infrastructure Technology"
+                    },
+                    {
+                        "name": "Investment Data & Analytics",
+                        "url": "Investment Data & Analytics"
+                    },
+                    {
+                        "name": "Equities",
+                        "url": "Equities"
+                    },
+                    {
+                        "name": "Our People Careers Press Center Contact"
+                    },
+                    {
+                        "name": "Our People",
+                        "url": "Our People"
+                    },
+                    {
+                        "name": "Diversity, Inclusion and Belonging",
+                        "url": "Diversity, Inclusion and Belonging"
+                    },
+                    {
+                        "name": "The Purpose Initiative",
+                        "url": "The Purpose Initiative"
+                    }
+                ],
+                "searchaction": [
+                    {
+                        "query": "value"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Powell's Unenviable Task: How Investors Should React to the Fed ...",
+            "htmlTitle": "Powell&#39;s Unenviable <b>Task</b>: How Investors Should React to the Fed ...",
+            "link": "https://www.nasdaq.com/articles/powells-unenviable-task%3A-how-investors-should-react-to-the-fed-this-week-2021-03-15",
+            "displayLink": "www.nasdaq.com",
+            "snippet": "Mar 15, 2021 ... The views and opinions expressed herein are the views and opinions of the \nauthor and do not necessarily reflect those of Nasdaq, Inc. Trending ...",
+            "htmlSnippet": "Mar 15, 2021 <b>...</b> The views and opinions expressed herein are the views and opinions of the <br>\nauthor and do not necessarily reflect those of <b>Nasdaq</b>, Inc. Trending&nbsp;...",
+            "cacheId": "nQiWZLubgBUJ",
+            "formattedUrl": "https://www.nasdaq.com/.../powells-unenviable-task%3A-how-investors- should-react-to-the-fed-this-week-2021-03-15",
+            "htmlFormattedUrl": "https://www.<b>nasdaq</b>.com/.../powells-unenviable-<b>task</b>%3A-how-investors- should-react-to-the-fed-this-week-2021-03-15",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQf1iCSjilrc9hjPncCxuvsgbrEswFICdY5FO0-6RPR5EfcfcDL9ZIVFXDI",
+                        "width": "275",
+                        "height": "183"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "og:image": "https://www.nasdaq.com/sites/acquia.prod/files/2019/10/30/fed-reserve3.jpg?445271451",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "Powell's Unenviable Task: How Investors Should React to the Fed this Week",
+                        "og:type": "Article",
+                        "og:image:width": "1200",
+                        "theme-color": "#ffffff",
+                        "twitter:site:id": "nasdaq",
+                        "handheldfriendly": "true",
+                        "twitter:url": "https://www.nasdaq.com/articles/powells-unenviable-task%3A-how-investors-should-react-to-the-fed-this-week-2021-03-15",
+                        "com.nasdaq.cms.taxonomy.addisplay": "True",
+                        "com.nasdaq.cms.taxonomy.pagetype": "article-page",
+                        "og:title": "Powell's Unenviable Task: How Investors Should React to the Fed this Week",
+                        "og:image:height": "630",
+                        "title": "Powell's Unenviable Task: How Investors Should React to the Fed this Week | Nasdaq",
+                        "storytype": "Commentary & Analysis",
+                        "com.nasdaq.cms.taxonomy.sponsored": "False",
+                        "twitter:site": "@Nasdaq",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "mobileoptimized": "width",
+                        "com.nasdaq.cms.taxonomy.topic": "markets",
+                        "og:url": "https://www.nasdaq.com/articles/powells-unenviable-task%3A-how-investors-should-react-to-the-fed-this-week-2021-03-15"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.nasdaq.com/sites/acquia.prod/files/styles/amp_metadata_content_image_min_696px_wide/public/2019/10/30/fed-reserve3.jpg?itok=cJ3luI_p"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Market Activity CLOSE Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets Quick Links Real-Time Quotes After-Hours Quotes Pre-Marke...",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Stocks",
+                        "url": "Stocks"
+                    },
+                    {
+                        "name": "Real-Time Quotes",
+                        "url": "Real-Time Quotes"
+                    },
+                    {
+                        "name": "Economic Calendar",
+                        "url": "Economic Calendar"
+                    },
+                    {
+                        "name": "Analyst Recommendations",
+                        "url": "Analyst Recommendations"
+                    },
+                    {
+                        "name": "Gold",
+                        "url": "Gold"
+                    },
+                    {
+                        "name": "Statistical Milestones",
+                        "url": "Statistical Milestones"
+                    },
+                    {
+                        "name": "News and Insights Markets Companies Coronavirus Technology Personal Finance Financial Advisors"
+                    },
+                    {
+                        "name": "News and Insights",
+                        "url": "News and Insights"
+                    },
+                    {
+                        "name": "Blockchain",
+                        "url": "Blockchain"
+                    },
+                    {
+                        "name": "Inclusive Entrepreneurship",
+                        "url": "Inclusive Entrepreneurship"
+                    },
+                    {
+                        "name": "Raise & Access Capital List with Nasdaq Nasdaq Private Market Private Fund Liquidity Investor Relations Intelligence Nasdaq Direct Listings Optimize Governance Practices Board Portal Software...",
+                        "url": "Raise & Access Capital"
+                    },
+                    {
+                        "name": "List with Nasdaq",
+                        "url": "List with Nasdaq"
+                    },
+                    {
+                        "name": "Board Portal Software",
+                        "url": "Board Portal Software"
+                    },
+                    {
+                        "name": "AML Technology",
+                        "url": "AML Technology"
+                    },
+                    {
+                        "name": "Investment Data & Analytics",
+                        "url": "Investment Data & Analytics"
+                    },
+                    {
+                        "name": "Equities",
+                        "url": "Equities"
+                    },
+                    {
+                        "name": "Our People Board of Directors Careers Press Center Contact"
+                    },
+                    {
+                        "name": "Our People",
+                        "url": "Our People"
+                    },
+                    {
+                        "name": "Diversity, Inclusion and Belonging",
+                        "url": "Diversity, Inclusion and Belonging"
+                    },
+                    {
+                        "name": "The Purpose Initiative",
+                        "url": "The Purpose Initiative"
+                    }
+                ],
+                "searchaction": [
+                    {
+                        "query": "value"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Regulation at Nasdaq Commodities - Tasks | Nasdaq",
+            "htmlTitle": "Regulation at <b>Nasdaq</b> Commodities - <b>Tasks</b> | <b>Nasdaq</b>",
+            "link": "https://www.nasdaq.com/solutions/regulation-at-nasdaq-commodities-tasks",
+            "displayLink": "www.nasdaq.com",
+            "snippet": "TASKS. The Exchange Regulation (“Børsforskriften”) for Nasdaq Oslo ASA \nregulates what tasks Market Surveillance at exchange shall perform. The main \ntask for ...",
+            "htmlSnippet": "<b>TASKS</b>. The Exchange Regulation (“Børsforskriften”) for <b>Nasdaq</b> Oslo ASA <br>\nregulates what <b>tasks</b> Market Surveillance at exchange shall perform. The main <br>\n<b>task</b> for&nbsp;...",
+            "cacheId": "lVMO5JMRrEIJ",
+            "formattedUrl": "https://www.nasdaq.com/solutions/regulation-at-nasdaq-commodities-tasks",
+            "htmlFormattedUrl": "https://www.<b>nasdaq</b>.com/solutions/regulation-at-<b>nasdaq</b>-commodities-<b>tasks</b>",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTu1h3wPFV0cd-3yVhVa7xUU-ztg1eTMrDSrN6_FODcpN5goSbqvgC3hP0",
+                        "width": "200",
+                        "height": "252"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "og:image": "https://www.nasdaq.com/sites/acquia.prod/files/2019-05/0902-Q19%20Total%20Markets%20photos%20and%20gif_CC8.jpg?1720387340",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "Regulation at Nasdaq Commodities - Tasks",
+                        "og:type": "Solutions Detail - No Rules",
+                        "og:image:width": "1200",
+                        "theme-color": "#ffffff",
+                        "twitter:site:id": "nasdaq",
+                        "handheldfriendly": "true",
+                        "twitter:url": "https://www.nasdaq.com/solutions/regulation-at-nasdaq-commodities-tasks",
+                        "com.nasdaq.cms.taxonomy.pagetype": "solutions-detail-no-rules-page",
+                        "og:title": "Regulation at Nasdaq Commodities - Tasks",
+                        "og:image:height": "630",
+                        "title": "Regulation at Nasdaq Commodities - Tasks | Nasdaq",
+                        "og:description": "TASKS\n\nThe Exchange Regulation (“Børsforskriften”) for Nasdaq Oslo ASA regulates what tasks Market Surveillance at exchange shall perform. \n\nThe main task for Market Surveillance is to monitor the market participants’ orders, trades and reporting of off-order book trades in the financial market. If there is suspicion of any breach of the trading rules Market Surveillance shall gather information and investigate according to the proceedings described later in this section. ",
+                        "twitter:site": "@Nasdaq",
+                        "com.nasdaq.cms.taxonomy.businessunit": "trade-global-markets:commodities:european-commodities",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "TASKS\n\nThe Exchange Regulation (“Børsforskriften”) for Nasdaq Oslo ASA regulates what tasks Market Surveillance at exchange shall perform. \n\nThe main task for Market Surveillance is to monitor the market participants’ orders, trades and reporting of off-order book trades in the financial market. If there is suspicion of any breach of the trading rules Market Surveillance shall gather information and investigate according to the proceedings described later in this section. ",
+                        "mobileoptimized": "width",
+                        "og:url": "https://www.nasdaq.com/solutions/regulation-at-nasdaq-commodities-tasks"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.nasdaq.com/sites/acquia.prod/files/styles/750x944/public/2019-04/AdobeStock_197237637.jpeg?itok=KAc-t6Hy"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Market Activity CLOSE Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets Quick Links Real-Time Quotes After-Hours Quotes Pre-Marke...",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Stocks",
+                        "url": "Stocks"
+                    },
+                    {
+                        "name": "Real-Time Quotes",
+                        "url": "Real-Time Quotes"
+                    },
+                    {
+                        "name": "Economic Calendar",
+                        "url": "Economic Calendar"
+                    },
+                    {
+                        "name": "Analyst Recommendations",
+                        "url": "Analyst Recommendations"
+                    },
+                    {
+                        "name": "Gold",
+                        "url": "Gold"
+                    },
+                    {
+                        "name": "Statistical Milestones",
+                        "url": "Statistical Milestones"
+                    },
+                    {
+                        "name": "News and Insights Markets Companies Coronavirus Technology Personal Finance Financial Advisors"
+                    },
+                    {
+                        "name": "News and Insights",
+                        "url": "News and Insights"
+                    },
+                    {
+                        "name": "Blockchain",
+                        "url": "Blockchain"
+                    },
+                    {
+                        "name": "Inclusive Entrepreneurship",
+                        "url": "Inclusive Entrepreneurship"
+                    },
+                    {
+                        "name": "Raise & Access Capital List with Nasdaq Nasdaq Private Market Private Fund Liquidity Investor Relations Intelligence Nasdaq Direct Listings Optimize Governance Practices Board Portal Software...",
+                        "url": "Raise & Access Capital"
+                    },
+                    {
+                        "name": "List with Nasdaq",
+                        "url": "List with Nasdaq"
+                    },
+                    {
+                        "name": "Board Portal Software",
+                        "url": "Board Portal Software"
+                    },
+                    {
+                        "name": "AML Technology",
+                        "url": "AML Technology"
+                    },
+                    {
+                        "name": "Investment Data & Analytics",
+                        "url": "Investment Data & Analytics"
+                    },
+                    {
+                        "name": "Equities",
+                        "url": "Equities"
+                    },
+                    {
+                        "name": "Our People Board of Directors Careers Press Center Contact"
+                    },
+                    {
+                        "name": "Our People",
+                        "url": "Our People"
+                    },
+                    {
+                        "name": "Diversity, Inclusion and Belonging",
+                        "url": "Diversity, Inclusion and Belonging"
+                    },
+                    {
+                        "name": "The Purpose Initiative",
+                        "url": "The Purpose Initiative"
+                    }
+                ],
+                "searchaction": [
+                    {
+                        "query": "value"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "GD Awarded FBI Task Orders - Analyst Blog | Nasdaq",
+            "htmlTitle": "GD Awarded FBI <b>Task</b> Orders - Analyst Blog | <b>Nasdaq</b>",
+            "link": "https://www.nasdaq.com/articles/gd-awarded-fbi-task-orders-analyst-blog-2012-07-11",
+            "displayLink": "www.nasdaq.com",
+            "snippet": "Jul 11, 2012 ... General Dynamics Information Technology, a business unit of General Dynamics \nCorporation ( GD ), has received an eight-year Federal ...",
+            "htmlSnippet": "Jul 11, 2012 <b>...</b> General Dynamics Information Technology, a business unit of General Dynamics <br>\nCorporation ( GD ), has received an eight-year Federal&nbsp;...",
+            "cacheId": "9YF8g09_nuAJ",
+            "formattedUrl": "https://www.nasdaq.com/.../gd-awarded-fbi-task-orders-analyst-blog-2012-07 -11",
+            "htmlFormattedUrl": "https://www.<b>nasdaq</b>.com/.../gd-awarded-fbi-<b>task</b>-orders-analyst-blog-2012-07 -11",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSmPKtcNx_tfcpLsM_ERcUTlzUK4i8Jvue1F7jLuP9luiZo5FFWXpyxu70",
+                        "width": "275",
+                        "height": "183"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "og:image": "https://www.nasdaq.com/sites/acquia.prod/files/image/6afd7d108796ad6d973d8e83c97bda7d1e01f317_finance20.jpg?1038006077",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "GD Awarded FBI Task Orders - Analyst Blog",
+                        "og:type": "Article",
+                        "og:image:width": "1200",
+                        "theme-color": "#ffffff",
+                        "twitter:site:id": "nasdaq",
+                        "handheldfriendly": "true",
+                        "twitter:url": "https://www.nasdaq.com/articles/gd-awarded-fbi-task-orders-analyst-blog-2012-07-11",
+                        "com.nasdaq.cms.taxonomy.addisplay": "True",
+                        "com.nasdaq.cms.taxonomy.pagetype": "article-page",
+                        "og:title": "GD Awarded FBI Task Orders - Analyst Blog",
+                        "og:image:height": "630",
+                        "title": "GD Awarded FBI Task Orders - Analyst Blog | Nasdaq",
+                        "com.nasdaq.cms.taxonomy.quotesymbol": "TXT,GD,LMT",
+                        "com.nasdaq.cms.taxonomy.assetclass": "stocks",
+                        "com.nasdaq.cms.taxonomy.sponsored": "False",
+                        "twitter:site": "@Nasdaq",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "mobileoptimized": "width",
+                        "com.nasdaq.cms.taxonomy.topic": "markets",
+                        "og:url": "https://www.nasdaq.com/articles/gd-awarded-fbi-task-orders-analyst-blog-2012-07-11"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.nasdaq.com/sites/acquia.prod/files/image/6afd7d108796ad6d973d8e83c97bda7d1e01f317_finance20.jpg?1038006077"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Market Activity CLOSE Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets Quick Links Real-Time Quotes After-Hours Quotes Pre-Marke...",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Stocks",
+                        "url": "Stocks"
+                    },
+                    {
+                        "name": "Real-Time Quotes",
+                        "url": "Real-Time Quotes"
+                    },
+                    {
+                        "name": "Economic Calendar",
+                        "url": "Economic Calendar"
+                    },
+                    {
+                        "name": "Analyst Recommendations",
+                        "url": "Analyst Recommendations"
+                    },
+                    {
+                        "name": "Gold",
+                        "url": "Gold"
+                    },
+                    {
+                        "name": "Statistical Milestones",
+                        "url": "Statistical Milestones"
+                    },
+                    {
+                        "name": "Markets Companies Coronavirus Technology Personal Finance Financial Advisors"
+                    },
+                    {
+                        "name": "Markets",
+                        "url": "Markets"
+                    },
+                    {
+                        "name": "Blockchain",
+                        "url": "Blockchain"
+                    },
+                    {
+                        "name": "World Reimagined",
+                        "url": "World Reimagined"
+                    },
+                    {
+                        "name": "Raise & Access Capital List with Nasdaq Nasdaq Private Market Solutions Investor Relations Intelligence Optimize Governance Practices Nasdaq Boardvantage Board Portal Software Board Evaluations...",
+                        "url": "Raise & Access Capital"
+                    },
+                    {
+                        "name": "List with Nasdaq",
+                        "url": "List with Nasdaq"
+                    },
+                    {
+                        "name": "Nasdaq Boardvantage Board Portal Software",
+                        "url": "Nasdaq Boardvantage Board Portal Software"
+                    },
+                    {
+                        "name": "Market Infrastructure Technology",
+                        "url": "Market Infrastructure Technology"
+                    },
+                    {
+                        "name": "Buy-Side Intelligence",
+                        "url": "Buy-Side Intelligence"
+                    },
+                    {
+                        "name": "Equities",
+                        "url": "Equities"
+                    },
+                    {
+                        "name": "Our People Careers Press Center Contact"
+                    },
+                    {
+                        "name": "Our People",
+                        "url": "Our People"
+                    },
+                    {
+                        "name": "Diversity, Inclusion and Belonging",
+                        "url": "Diversity, Inclusion and Belonging"
+                    },
+                    {
+                        "name": "Nasdaq Responds to Covid-19",
+                        "url": "Nasdaq Responds to Covid-19"
+                    }
+                ],
+                "searchaction": [
+                    {
+                        "query": "value"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "SPECIAL REPORT-Former Labradoodle breeder tapped to lead ...",
+            "htmlTitle": "SPECIAL REPORT-Former Labradoodle breeder tapped to lead ...",
+            "link": "https://www.nasdaq.com/articles/special-report-former-labradoodle-breeder-tapped-to-lead-u.s.-pandemic-task-force-2020-04",
+            "displayLink": "www.nasdaq.com",
+            "snippet": "Apr 22, 2020 ... Hahn wasn't put on the task force until Vice President Mike Pence took over ... of \nthe author and do not necessarily reflect those of Nasdaq, Inc.",
+            "htmlSnippet": "Apr 22, 2020 <b>...</b> Hahn wasn&#39;t put on the <b>task</b> force until Vice President Mike Pence took over ... of <br>\nthe author and do not necessarily reflect those of <b>Nasdaq</b>, Inc.",
+            "cacheId": "9BUy0H1YLxoJ",
+            "formattedUrl": "https://www.nasdaq.com/.../special-report-former-labradoodle-breeder-tapped -to-lead-u.s.-pandemic-task-force-2020-04",
+            "htmlFormattedUrl": "https://www.<b>nasdaq</b>.com/.../special-report-former-labradoodle-breeder-tapped -to-lead-u.s.-pandemic-<b>task</b>-force-2020-04",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSeU7B9yuPOvUXtCLeAAbeJpKSuJSJ8Vjc9k7PppV4I3mA5FO7b1NvUfNo",
+                        "width": "273",
+                        "height": "185"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "og:image": "https://www.nasdaq.com/sites/acquia.prod/files/2020-04-22T214611Z_1_ZH8_RTRLXPP_2_LYNXPACKAGER.JPG?1059328863",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "SPECIAL REPORT-Former Labradoodle breeder tapped to lead U.S. pandemic task force",
+                        "og:type": "Article",
+                        "og:image:width": "1200",
+                        "theme-color": "#ffffff",
+                        "twitter:site:id": "nasdaq",
+                        "handheldfriendly": "true",
+                        "twitter:url": "https://www.nasdaq.com/articles/special-report-former-labradoodle-breeder-tapped-to-lead-u.s.-pandemic-task-force-2020-04",
+                        "com.nasdaq.cms.taxonomy.addisplay": "True",
+                        "com.nasdaq.cms.taxonomy.pagetype": "article-page",
+                        "og:title": "SPECIAL REPORT-Former Labradoodle breeder tapped to lead U.S. pandemic task force",
+                        "og:image:height": "630",
+                        "title": "SPECIAL REPORT-Former Labradoodle breeder tapped to lead U.S. pandemic task force | Nasdaq",
+                        "com.nasdaq.cms.taxonomy.sponsored": "False",
+                        "twitter:site": "@Nasdaq",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "mobileoptimized": "width",
+                        "com.nasdaq.cms.taxonomy.topic": "markets:us-markets",
+                        "og:url": "https://www.nasdaq.com/articles/special-report-former-labradoodle-breeder-tapped-to-lead-u.s.-pandemic-task-force-2020-04"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.nasdaq.com/sites/acquia.prod/files/2020-04-22T214611Z_1_ZH8_RTRLXPP_2_LYNXPACKAGER.JPG?1059328863"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Market Activity CLOSE Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets Quick Links Real-Time Quotes After-Hours Quotes Pre-Marke...",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Stocks",
+                        "url": "Stocks"
+                    },
+                    {
+                        "name": "Real-Time Quotes",
+                        "url": "Real-Time Quotes"
+                    },
+                    {
+                        "name": "Economic Calendar",
+                        "url": "Economic Calendar"
+                    },
+                    {
+                        "name": "Analyst Recommendations",
+                        "url": "Analyst Recommendations"
+                    },
+                    {
+                        "name": "Gold",
+                        "url": "Gold"
+                    },
+                    {
+                        "name": "Statistical Milestones",
+                        "url": "Statistical Milestones"
+                    },
+                    {
+                        "name": "Markets Companies Coronavirus Technology Personal Finance Financial Advisors"
+                    },
+                    {
+                        "name": "Markets",
+                        "url": "Markets"
+                    },
+                    {
+                        "name": "Blockchain",
+                        "url": "Blockchain"
+                    },
+                    {
+                        "name": "World Reimagined",
+                        "url": "World Reimagined"
+                    },
+                    {
+                        "name": "Raise & Access Capital List with Nasdaq Nasdaq Private Market Private Fund Liquidity Investor Relations Intelligence Optimize Governance Practices Board Portal Software Board Assessments &...",
+                        "url": "Raise & Access Capital"
+                    },
+                    {
+                        "name": "List with Nasdaq",
+                        "url": "List with Nasdaq"
+                    },
+                    {
+                        "name": "Board Portal Software",
+                        "url": "Board Portal Software"
+                    },
+                    {
+                        "name": "Market Infrastructure Technology",
+                        "url": "Market Infrastructure Technology"
+                    },
+                    {
+                        "name": "Buy-Side Intelligence",
+                        "url": "Buy-Side Intelligence"
+                    },
+                    {
+                        "name": "Equities",
+                        "url": "Equities"
+                    },
+                    {
+                        "name": "Our People Careers Press Center Contact"
+                    },
+                    {
+                        "name": "Our People",
+                        "url": "Our People"
+                    },
+                    {
+                        "name": "Diversity, Inclusion and Belonging",
+                        "url": "Diversity, Inclusion and Belonging"
+                    },
+                    {
+                        "name": "Nasdaq Responds to Covid-19",
+                        "url": "Nasdaq Responds to Covid-19"
+                    }
+                ],
+                "searchaction": [
+                    {
+                        "query": "value"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Investing in Art is No Paint-By-Numbers Task | Nasdaq",
+            "htmlTitle": "Investing in Art is No Paint-By-Numbers <b>Task</b> | <b>Nasdaq</b>",
+            "link": "https://www.nasdaq.com/articles/investing-art-no-paint-numbers-task-2015-12-07",
+            "displayLink": "www.nasdaq.com",
+            "snippet": "Dec 7, 2015 ... Skyrocketing art prices may have inspired some high-net-worth clients to ask \nabout adding a few paintings to their portfolios. But advisors ...",
+            "htmlSnippet": "Dec 7, 2015 <b>...</b> Skyrocketing art prices may have inspired some high-net-worth clients to ask <br>\nabout adding a few paintings to their portfolios. But advisors&nbsp;...",
+            "cacheId": "XBVvkJbN-TAJ",
+            "formattedUrl": "https://www.nasdaq.com/.../investing-art-no-paint-numbers-task-2015-12-07",
+            "htmlFormattedUrl": "https://www.<b>nasdaq</b>.com/.../investing-art-no-paint-numbers-<b>task</b>-2015-12-07",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTQgLQdXPIWfI2aM4YEQrj9-tBwMimohc75xR4CzdTtllyhlZyYGAKBszg",
+                        "width": "275",
+                        "height": "183"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "og:image": "https://www.nasdaq.com/sites/acquia.prod/files/image/b65e7d57f893157ee6297342a479548011401b2a_finance74.jpg?425210732",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "Investing in Art is No Paint-By-Numbers Task",
+                        "og:type": "Article",
+                        "og:image:width": "1200",
+                        "theme-color": "#ffffff",
+                        "twitter:site:id": "nasdaq",
+                        "handheldfriendly": "true",
+                        "twitter:url": "https://www.nasdaq.com/articles/investing-art-no-paint-numbers-task-2015-12-07",
+                        "com.nasdaq.cms.taxonomy.addisplay": "False",
+                        "com.nasdaq.cms.taxonomy.pagetype": "article-page",
+                        "og:title": "Investing in Art is No Paint-By-Numbers Task",
+                        "og:image:height": "630",
+                        "title": "Investing in Art is No Paint-By-Numbers Task | Nasdaq",
+                        "com.nasdaq.cms.taxonomy.sponsored": "False",
+                        "twitter:site": "@Nasdaq",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "mobileoptimized": "width",
+                        "com.nasdaq.cms.taxonomy.topic": "personal-finance",
+                        "og:url": "https://www.nasdaq.com/articles/investing-art-no-paint-numbers-task-2015-12-07"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.nasdaq.com/sites/acquia.prod/files/image/b65e7d57f893157ee6297342a479548011401b2a_finance74.jpg?425210732"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Market Activity CLOSE Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets Quick Links Real-Time Quotes After-Hours Quotes Pre-Marke...",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Stocks",
+                        "url": "Stocks"
+                    },
+                    {
+                        "name": "Real-Time Quotes",
+                        "url": "Real-Time Quotes"
+                    },
+                    {
+                        "name": "Economic Calendar",
+                        "url": "Economic Calendar"
+                    },
+                    {
+                        "name": "Analyst Recommendations",
+                        "url": "Analyst Recommendations"
+                    },
+                    {
+                        "name": "Gold",
+                        "url": "Gold"
+                    },
+                    {
+                        "name": "Statistical Milestones",
+                        "url": "Statistical Milestones"
+                    },
+                    {
+                        "name": "Markets Companies Coronavirus Technology Personal Finance Financial Advisors"
+                    },
+                    {
+                        "name": "Markets",
+                        "url": "Markets"
+                    },
+                    {
+                        "name": "Blockchain",
+                        "url": "Blockchain"
+                    },
+                    {
+                        "name": "Inclusive Entrepreneurship",
+                        "url": "Inclusive Entrepreneurship"
+                    },
+                    {
+                        "name": "Raise & Access Capital List with Nasdaq Nasdaq Private Market Private Fund Liquidity Investor Relations Intelligence Optimize Governance Practices Board Portal Software Board Assessments &...",
+                        "url": "Raise & Access Capital"
+                    },
+                    {
+                        "name": "List with Nasdaq",
+                        "url": "List with Nasdaq"
+                    },
+                    {
+                        "name": "Board Portal Software",
+                        "url": "Board Portal Software"
+                    },
+                    {
+                        "name": "Market Infrastructure Technology",
+                        "url": "Market Infrastructure Technology"
+                    },
+                    {
+                        "name": "Investment Data & Analytics",
+                        "url": "Investment Data & Analytics"
+                    },
+                    {
+                        "name": "Equities",
+                        "url": "Equities"
+                    },
+                    {
+                        "name": "Our People Careers Press Center Contact"
+                    },
+                    {
+                        "name": "Our People",
+                        "url": "Our People"
+                    },
+                    {
+                        "name": "Diversity, Inclusion and Belonging",
+                        "url": "Diversity, Inclusion and Belonging"
+                    },
+                    {
+                        "name": "The Purpose Initiative",
+                        "url": "The Purpose Initiative"
+                    }
+                ],
+                "searchaction": [
+                    {
+                        "query": "value"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "TaskUs, Inc. (TASK) Real-Time Quotes | Nasdaq",
+            "htmlTitle": "TaskUs, Inc. (<b>TASK</b>) Real-Time Quotes | <b>Nasdaq</b>",
+            "link": "https://www.nasdaq.com/market-activity/stocks/task/real-time",
+            "displayLink": "www.nasdaq.com",
+            "snippet": "May 6, 2021 ... TaskUs, Inc. (TASK) Real-time Stock Quotes - Nasdaq offers real-time quotes & \nmarket activity data for US and global markets.",
+            "htmlSnippet": "May 6, 2021 <b>...</b> TaskUs, Inc. (<b>TASK</b>) Real-time Stock Quotes - <b>Nasdaq</b> offers real-time quotes &amp; <br>\nmarket activity data for US and global markets.",
+            "cacheId": "iKE2esDwnnkJ",
+            "formattedUrl": "https://www.nasdaq.com/market-activity/stocks/task/real-time",
+            "htmlFormattedUrl": "https://www.<b>nasdaq</b>.com/market-activity/stocks/<b>task</b>/real-time",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "twitter:card": "summary_large_image",
+                        "theme-color": "#ffffff",
+                        "handheldfriendly": "true",
+                        "com.nasdaq.cms.taxonomy.pagetype": "symbol-page",
+                        "og:title": "TaskUs, Inc. (TASK) Real-Time Quotes",
+                        "title": "TaskUs, Inc. (TASK) Real-Time Quotes | Nasdaq",
+                        "com.nasdaq.cms.taxonomy.quotesymbol": "TASK",
+                        "com.nasdaq.cms.taxonomy.assetclass": "ipo",
+                        "twitter:site": "@Nasdaq",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "mobileoptimized": "width",
+                        "og:url": "https://www.nasdaq.com/market-activity/stocks/task/real-time"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Market Activity CLOSE Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets Quick Links Real-Time Quotes After-Hours Quotes Pre-Marke...",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Market Activity Stocks Funds + ETFs Indexes Commodities Cryptocurrency Currencies Futures Fixed Income Global Markets",
+                        "url": "Market Activity"
+                    },
+                    {
+                        "name": "Stocks",
+                        "url": "Stocks"
+                    },
+                    {
+                        "name": "Real-Time Quotes",
+                        "url": "Real-Time Quotes"
+                    },
+                    {
+                        "name": "Economic Calendar",
+                        "url": "Economic Calendar"
+                    },
+                    {
+                        "name": "Analyst Recommendations",
+                        "url": "Analyst Recommendations"
+                    },
+                    {
+                        "name": "Gold",
+                        "url": "Gold"
+                    },
+                    {
+                        "name": "Statistical Milestones",
+                        "url": "Statistical Milestones"
+                    },
+                    {
+                        "name": "Markets Companies Coronavirus Technology Personal Finance Financial Advisors"
+                    },
+                    {
+                        "name": "Markets",
+                        "url": "Markets"
+                    },
+                    {
+                        "name": "Blockchain",
+                        "url": "Blockchain"
+                    },
+                    {
+                        "name": "Inclusive Entrepreneurship",
+                        "url": "Inclusive Entrepreneurship"
+                    },
+                    {
+                        "name": "Raise & Access Capital List with Nasdaq Nasdaq Private Market Private Fund Liquidity Investor Relations Intelligence Optimize Governance Practices Board Portal Software Board Assessments &...",
+                        "url": "Raise & Access Capital"
+                    },
+                    {
+                        "name": "List with Nasdaq",
+                        "url": "List with Nasdaq"
+                    },
+                    {
+                        "name": "Board Portal Software",
+                        "url": "Board Portal Software"
+                    },
+                    {
+                        "name": "Market Infrastructure Technology",
+                        "url": "Market Infrastructure Technology"
+                    },
+                    {
+                        "name": "Investment Data & Analytics",
+                        "url": "Investment Data & Analytics"
+                    },
+                    {
+                        "name": "Equities",
+                        "url": "Equities"
+                    },
+                    {
+                        "name": "Our People Careers Press Center Contact"
+                    },
+                    {
+                        "name": "Our People",
+                        "url": "Our People"
+                    },
+                    {
+                        "name": "Diversity, Inclusion and Belonging",
+                        "url": "Diversity, Inclusion and Belonging"
+                    },
+                    {
+                        "name": "The Purpose Initiative",
+                        "url": "The Purpose Initiative"
+                    }
+                ],
+                "searchaction": [
+                    {
+                        "query": "value"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -2,7 +2,7 @@ name: Testing Calendar Integration
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:

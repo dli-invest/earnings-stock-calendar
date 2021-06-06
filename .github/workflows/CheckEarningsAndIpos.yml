@@ -13,6 +13,8 @@ env:
   DISCORD_CODE_STATUS_WEBHOOK: ${{ secrets.DISCORD_CODE_STATUS_WEBHOOK }}
   CALENDAR_ID: ${{ secrets.CALENDAR_ID }}  
   REMOTE_SELENIUM_URL: ${{ secrets.REMOTE_SELENIUM_URL }}
+  GOOGLE_SEARCH_ENGINE_CX: ${{ secrets.GOOGLE_SEARCH_ENGINE_CX }}
+  GOOGLE_SEARCH_KEY: ${{ secrets.GOOGLE_SEARCH_KEY }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -44,7 +46,7 @@ jobs:
           webhook: ${{ secrets.DISCORD_CODE_STATUS_WEBHOOK }}
           status: ${{ job.status }}
           title: ${{github.repository}}
-          description: "Build and deploy to GitHub Pages"
+          description: "Check Earnings and ipos"
           nofail: false
           nocontext: false
           noprefix: false

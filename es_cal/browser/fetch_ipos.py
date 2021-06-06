@@ -4,6 +4,8 @@ import pandas as pd
 from icecream import ic
 import datetime
 from es_cal.gcal import make_event_in_gcal
+from es_cal.discord import send_message
+from es_cal.browser.googleSearch import searchGoogle, mapItemForDiscord
 
 def convert_ipo_date(date: str):
     return datetime.datetime.strptime(date, '%m/%d/%Y').strftime('%Y-%m-%d')
@@ -33,12 +35,19 @@ def fetch_ipos(marketwatch_url = "https://www.marketwatch.com/tools/ipo-calendar
             output_str = f"""{name}/{symbol}/{ex} \n - {priceRange} \n - Shares: {shares}
             """
             make_event_in_gcal(output_str, date)
+            try:
+                firstItem = searchGoogle(f"{symbol} {ex}")
+                send_message(mapItemForDiscord(firstItem))
+            except Exception as e:
+                pass
+            # send data to discord
         # send data to calendar
         return lastweek, upcoming
     except Exception as e:
         ic("Error message here")
         ic(e)
+        raise Exception(e)
         return None, None
 
-fetch_ipos()
+
 
